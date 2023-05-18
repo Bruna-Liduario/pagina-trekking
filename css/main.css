@@ -1,0 +1,247 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+}
+
+ul {
+    padding: 0% !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 200px;
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+
+.logo img {
+    float: left;
+    padding: 2px;
+    width: 80%;
+    width: 200px;
+    height: 200px;
+}
+
+.redes-sociais ul li img {
+    height: 40px;
+    width: 40px;
+}
+
+.redes-sociais ul li {
+    margin-left: 60px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 20%;
+    float: right;
+    padding: 70px;
+}
+
+.header-2 {
+    background-color: aliceblue;
+    width: 100%;
+    border-bottom: 3px solid #d2d4d4;
+    height: 100px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: rgb(0, 100, 0);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.menu ul li a:hover {
+    color: rgb(13, 14, 13);
+    border-bottom: 2px solid rgb(13, 14, 13);
+}
+
+.menu ul li a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    background-image: url('../img/icone-search.png.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 40px;
+    padding: 7px;
+    width: 300px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+
+ul.proximas-aventuras {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+}
+
+
+.viagem-serra-cipo img {
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.viagem-serra-cipo:hover {
+    color: rgb(13, 14, 13);
+    border-bottom: 2px solid rgb(13, 14, 13);
+}
+
+.viagem-serra-cipo {
+    background-color: #d8e3ec;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.viagem-cachoeira-vozes img {
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.viagem-cachoeira-vozes:hover {
+    color: rgb(13, 14, 13);
+    border-bottom: 2px solid rgb(13, 14, 13);
+}
+
+.viagem-cachoeira-vozes {
+    background-color: #d8e3ec;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.viagem-bariloche img {
+    height: 400px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.viagem-bariloche:hover {
+    color: rgb(13, 14, 13);
+    border-bottom: 2px solid rgb(13, 14, 13);
+}
+
+.viagem-bariloche {
+    background-color: #d8e3ec;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+div.informacao span {
+    background-color: aliceblue;
+    padding: 5px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+p.descrição {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+p.valor {
+    background-color: aliceblue;
+    border-radius: 30px;
+    font-size: 24px;
+}
+
+
+ul.servicos {
+    margin-top: 100px;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+ul.servicos span {
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.servicos img {
+    height: 100px;
+    width: auto;
+}
+
+ul.servicos h1 {
+    font-size: 45;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.informacoes-contato {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contato {
+    text-align: left;
+}
+
+.contato p {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.info-adicional {
+    text-align: right;
+}
+
+.info-adicional p {
+    margin: 10px 0;
+    font-size: 20px;
+}
